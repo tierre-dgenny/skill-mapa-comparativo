@@ -202,3 +202,4 @@ Informar à usuária:
 - Se houver CEO/decisor identificado que gosta de IA, criar slide específico para ele
 - Sempre usar citações reais da reunião (entre aspas) nos cards de dor — dá autenticidade
 - O slug do repositório deve ser em minúsculas, sem espaços, sem caracteres especiais (ex: `grupo-jrc` → `jrc`)
+- **Quando o nome da empresa for corrigido após a publicação, renomear o repositório GitHub via API** (`PATCH /repos/tierre-dgenny/dgenny-mapa-SLUG-antigo` com `{"name":"dgenny-mapa-SLUG-novo"}`) para que o link publicado reflita o nome correto — e atualizar também o arquivo `mensagem-SLUG.txt` no Desktop com a nova URL
